@@ -18,15 +18,15 @@ public class Rock_paper_scissors {
                  user_set = "Rock";
             }else if(user==2){
                  user_set = "Paper";
-            }else {
-                 user_set = "Scissros";
+            }else  if(user==3) {
+                 user_set = "Scissors";
             }
             if(pc==1){
                  pc_set = "Rock";
             }else if(pc==2){
                  pc_set = "Paper";
-            }else {
-                pc_set = "Scissros";
+            }else if(pc==3) {
+                pc_set = "Scissors";
             }
 
             System.out.println("User = "+user_set);
